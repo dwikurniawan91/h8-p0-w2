@@ -1,0 +1,85 @@
+﻿1. Newton second Law
+
+   Algoritma:
+
+	1 Tentukan massa benda
+	2. Tentukan percepatan benda
+	3. Hitung resultan gaya dengan rumus (massa benda *percepatan benda)
+	4. Tampilkan resultan gaya
+  Pseudocode:
+
+	START
+	STORE `massa benda`
+	STORE `percepatan benda`
+	STORE `resultan gaya` with CALCULATE (massa benda*percepatan benda)
+	DISPLAY `resultan gaya`
+
+2. Tahun Kabisat
+
+      Algoritma:
+
+	1. Tentukan tahun
+	2. Tahun merupakan tahun kabisat jika:
+	     a. jika tahun habis dibagi 4 dan tahun habis dibagi 100 dan tahun habis 	dibagi 400
+	     b. Jika tahun habis dibagi 4 dan  tahun tidak habis dibagi 100 
+	3. Tampilkan hasil
+
+       Pseudocode:
+	
+	START
+	STORE `tahun`
+	IF`tahun` MOD 4 EQUALS 0 AND `tahun` MOD 100 EQUALS 0 AND `tahun` MOD 400 	EQUALS 0
+		DISPLAY ‘TAHUN KABISAT’
+	ELSE IF `tahun` MOD 4  EQUALS 0 AND `tahun` MOD 100 NOT EQUALS 0
+		DISPLAY ‘TAHUN KABISAT’
+	ELSE
+		DISPLAY ‘BUKAN TAHUN KABISAT’
+
+3. Laundry Day
+
+       Algoritma:
+
+	1. Simpan pakaian dengan nilai 1
+	2. ketika pakaian kurang  dari atau sama dengan 20
+	3. Tampilkan pakaian
+	4 Lakukan perulangan sampai pakaian sama dengan 20
+	
+
+      Pseudocode:
+
+	START
+	STORE `pakaian` To 1
+	WHILE `pakaian` <= 20
+		DISPLAY `pakaian`
+		INCREMENT `pakaian`  by 1
+	END
+
+
+4. Periksa Kuku
+
+   Algoritma:
+
+	1. Simpan siswa kuku panjang dengan nilai 25
+	2. simpan siswa kuku pendek dengan nilai 15
+	3. Lakukan perulangan pemeriksaan sampai 40 siswa 
+	4. 25 siswa pertama berkuku panjang dihukum
+	3. 15 siswa berkuku pendek di puji
+
+
+Pseudocode:
+
+	START
+	STORE `kukuPanjang` TO 25
+	STORE `kukuPendek` TO 15
+	FOR (START WHEN `siswa` = 1, END WHEN `siswa` <= 40, INCREMENT `siswa` BY 	1) 
+		IF `siswa < 20 
+			DISPLAY ‘SISWA KE- `siswa` KUKU PANJANG DIHUKUM’
+		ELSE
+			DISPLAY ‘SISWA KE- `siswa` KUKU PENDEK DIPUJI’
+  		END IF
+		END
+
+
+
+
+
