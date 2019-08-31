@@ -1,17 +1,20 @@
-var nama = 'Zero';
-var peran = 'Penyihir';
+var nama = '';
+var peran = 'Tabib';
 
-if (nama === '') {
-    console.log('Nama harus  diisi!');
-} else if (nama === 'Nina' && peran === ''){
+if (nama === '' && peran === '') {
+    console.log('Nama dan peran harus  diisi!');
+}else if (nama === '' && peran === peran){
+    console.log(`Nama harus diisi!`);
+}else if (nama === nama && peran === ''){
     console.log(`Halo ${nama}, Pilih peranmu untuk memulai game!`);
-} else if (nama === 'Nina' && peran === 'Ksatria') {
-    console.log(`Selamat datang di Dunia Proxytia, ${nama}
-    Halo ${peran} ${nama}, kamu dapat menyerang dengan senjatamu!`);
-} else if (nama === 'Danu' && peran === 'Tabib') {
-    console.log(`Selamat datang di Dunia Proxytia, ${nama}
-    Halo ${peran} ${nama}, kamu akan membantu temanmu yang terluka.`);
-} else if (nama === 'Zero' && peran === 'Penyihir') {
-    console.log(`Selamat datang di Dunia Proxytia, ${nama}
-    Halo ${peran} ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`);
+}else{
+    
+    console.log(`Selamat datang di Dunia Proxytia, ${nama}`);
+    if(peran === 'Ksatria') {
+        console.log(`Halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
+    }else if (peran === 'Tabib') {
+        console.log(`Halo Tabib ${nama}, kamu akan membantu temanmu yang terluka.`);
+    } else if (peran === 'Penyihir') {
+        console.log(`Halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`);
+    }
 }
